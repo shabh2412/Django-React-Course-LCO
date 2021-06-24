@@ -1,6 +1,6 @@
 from django.contrib import admin
 # Importing category model
-from .models import AnimationObjects
+from .models import AnimationObject
 
 # Register your models here.
-admin.site.register(AnimationObjects)
+admin.site.register(AnimationObject)
