@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'api',
     # Registering Category app in api
     'api.category',
+    'api.textractor',
 ]
 
 MIDDLEWARE = [
