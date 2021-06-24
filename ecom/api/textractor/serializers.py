@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import AnimationObject
 
-class AnimationObjectSerializer(serializers.Serializer):
+class AnimationObjectSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = AnimationObject
-        field = ('name','similar_keywords')
+        fields = ('name','similar_keywords')
