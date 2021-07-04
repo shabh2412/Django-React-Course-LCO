@@ -7,5 +7,5 @@ urlpatterns = [
     path('', home, name='api.home'),
     path('category/', include('api.category.urls')),
     path('textractor/', include('api.textractor.urls')),
-    path('products/', include('api.products.urls')),
+    path('product/', include('api.product.urls')),
 ]
