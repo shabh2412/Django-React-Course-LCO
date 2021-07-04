@@ -10,6 +10,7 @@ pyqt5-sip = "==12.8.1"
 django = "==3.0.8"
 django-cors-headers = "*"
 djangorestframework = "*"
+pillow = "*"
 
 [dev-packages]
 
