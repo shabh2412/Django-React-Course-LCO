@@ -4,7 +4,8 @@ from . import views
 
 
 router = routers.DefaultRouter()
-router.register(r'', views.AnimationObjectViewSet)
+router.register(r'anim_obj', views.AnimationObjectViewSet, 'animation_objects')
+router.register(r'temp_anim', views.tempAnimViewSet, 'temp')
 
 urlpatterns = [
     path('', include(router.urls))
